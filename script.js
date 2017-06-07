@@ -1,4 +1,5 @@
 var myapp = angular.module('myapp', ["ui.router"])
+console.log("updated???");
 myapp.config(function($stateProvider, $urlRouterProvider){
 
   // For any unmatched url, send to /route1
